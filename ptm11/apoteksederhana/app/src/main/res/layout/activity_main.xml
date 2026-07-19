@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#F1F5F9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 1. SEBELUM TIDUR -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openDoaTidur"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/tidur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebelum Tidur"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 2. BANGUN TIDUR -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openDoaBangun"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/tidur"/>
+
+            <TextView
+                android:text="Bangun Tidur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 3. SEBELUM MAKAN -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="opendoamakan"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/makan"/>
+
+            <TextView
+                android:text="Sebelum Makan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 4. SESUDAH MAKAN -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openSesudahmakan"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/makan"/>
+
+            <TextView
+                android:text="Sesudah Makan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 5. KELUAR RUMAH -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openKeluarrumah"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/rumah"/>
+
+            <TextView
+                android:text="Keluar Rumah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 6. MASUK RUMAH -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openMasukrumah"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/rumah"/>
+
+            <TextView
+                android:text="Masuk Rumah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 7. MASUK KM -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openMasukkamarmandi"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/kamarmandi"/>
+
+            <TextView
+                android:text="Masuk Kamar Mandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 8. KELUAR KM -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:onClick="openKeluarkamarmandi"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/kamarmandi"/>
+
+            <TextView
+                android:text="Keluar Kamar Mandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</GridLayout>
